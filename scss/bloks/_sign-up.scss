@@ -1,0 +1,79 @@
+.sign-up .container {
+  background-color: #495567;
+  background-image: url(../../images/sign-up.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top 100% left 100%;
+}
+
+.sign-up-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 102px 0;
+}
+
+.sign-up__heading {
+  width: 100%;
+  max-width: 415px;
+  margin: 0;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #ffffff;
+}
+
+.sign-up__link-wrapper {
+}
+
+.sign-up__logo-link {
+}
+
+.sign-up__logo {
+  margin: 0 9px;
+}
+
+@media only screen and (max-width: 893px) {
+  .sign-up-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 62px 0;
+  }
+
+  .sign-up__heading {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 467px) {
+  .sign-up .container-small {
+    padding: 10px;
+  }
+
+  .sign-up-wrapper {
+    padding: 88px 0;
+  }
+
+  .sign-up__heading {
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .sign-up__logo {
+    width: 130px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 326px) {
+  .sign-up__link-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sign-up__logo {
+    margin-bottom: 15px;
+  }
+}
